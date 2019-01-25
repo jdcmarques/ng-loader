@@ -4,7 +4,7 @@ var webpack = require('webpack')
 var expect = require('chai').expect
 var rimraf = require('rimraf')
 var hash = require('hash-sum')
-var extract = require('extract-text-webpack-plugin')
+var extract = require('mini-css-extract-plugin')
 var jsdom = require('jsdom')
 
 describe('ng-component-loader', function(){
